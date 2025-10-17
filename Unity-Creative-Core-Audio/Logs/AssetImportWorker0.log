@@ -1,0 +1,1130 @@
+Using pre-set license
+Built from '6000.0/staging' branch; Version is '6000.0.57f1 (b7b9860b7bbd) revision 12040582'; Using compiler version '193933523'; Build Type 'Release'
+OS: 'Windows 11  (10.0.26100) 64bit Core' Language: 'en' Physical Memory: 16226 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1
+Date: 2025-10-17T06:59:24Z
+
+COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\6000.0.57f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/lovba/OneDrive/桌面/Creative-Core-Audio/Unity-Creative-Core-Audio
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+50369
+-job-worker-count
+3
+-background-job-worker-count
+8
+-gc-helper-count
+1
+-name
+AssetImport
+Successfully changed project path to: C:/Users/lovba/OneDrive/桌面/Creative-Core-Audio/Unity-Creative-Core-Audio
+C:/Users/lovba/OneDrive/桌面/Creative-Core-Audio/Unity-Creative-Core-Audio
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [21344]  Target information:
+
+Player connection [21344]  * "[IP] 192.168.1.103 [Port] 0 [Flags] 2 [Guid] 1156203484 [EditorId] 1156203484 [Version] 1048832 [Id] WindowsEditor(7,DESKTOP-QPSAC0V) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+
+Player connection [21344] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [21344] Host joined alternative multi-casting on [225.0.0.222:34997]...
+JobSystem: Creating JobQueue using job-worker-count value 3
+Input System module state changed to: Initialized.
+[Physics::Module] Initialized fallback backend.
+[Physics::Module] Id: 0xdecafbad
+Library Redirect Path: Library/
+[Physics::Module] Selected backend.
+[Physics::Module] Name: PhysX
+[Physics::Module] Id: 0xf2b8ea05
+[Physics::Module] SDK Version: 4.1.2
+[Physics::Module] Integration Version: 1.0.0
+[Physics::Module] Threading Mode: Multi-Threaded
+Refreshing native plugins compatible for Editor in 1.44 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 6000.0.57f1 (b7b9860b7bbd)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/6000.0.57f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/lovba/OneDrive/桌面/Creative-Core-Audio/Unity-Creative-Core-Audio/Assets
+GfxDevice: creating device client; kGfxThreadingModeNonThreaded
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: Intel(R) Iris(R) Xe Graphics (ID=0x9a49)
+    Vendor:   Intel
+    VRAM:     8113 MB
+    Driver:   32.0.101.6737
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/6000.0.57f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/6000.0.57f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/6000.0.57f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56136
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.57f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.57f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Register platform support module: C:/Program Files/Unity/Hub/Editor/6000.0.57f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Registered in 0.006537 seconds.
+- Loaded All Assemblies, in  0.833 seconds
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 1272 ms
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.702 seconds
+Domain Reload Profiling: 2534ms
+	BeginReloadAssembly (171ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (2ms)
+	RebuildCommonClasses (53ms)
+	RebuildNativeTypeToScriptingClass (20ms)
+	initialDomainReloadingComplete (64ms)
+	LoadAllAssembliesAndSetupDomain (523ms)
+		LoadAssemblies (167ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (517ms)
+			TypeCache.Refresh (514ms)
+				TypeCache.ScanAssembly (496ms)
+			BuildScriptInfoCaches (0ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (1703ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1643ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (1394ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (67ms)
+			ProcessInitializeOnLoadAttributes (128ms)
+			ProcessInitializeOnLoadMethodAttributes (49ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+========================================================================
+Worker process is ready to serve import requests
+Import Worker Mode flag is 0x00
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.884 seconds
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+Refreshing native plugins compatible for Editor in 0.65 ms, found 2 plugins.
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+Package Manager log level set to [2]
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.042 seconds
+Domain Reload Profiling: 1923ms
+	BeginReloadAssembly (219ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (36ms)
+	RebuildCommonClasses (49ms)
+	RebuildNativeTypeToScriptingClass (22ms)
+	initialDomainReloadingComplete (29ms)
+	LoadAllAssembliesAndSetupDomain (561ms)
+		LoadAssemblies (358ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (332ms)
+			TypeCache.Refresh (264ms)
+				TypeCache.ScanAssembly (248ms)
+			BuildScriptInfoCaches (53ms)
+			ResolveRequiredComponents (10ms)
+	FinalizeReload (1042ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (771ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (14ms)
+			SetLoadedEditorAssemblies (3ms)
+			BeforeProcessingInitializeOnLoad (131ms)
+			ProcessInitializeOnLoadAttributes (541ms)
+			ProcessInitializeOnLoadMethodAttributes (73ms)
+			AfterProcessingInitializeOnLoad (8ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.02 seconds
+Refreshing native plugins compatible for Editor in 0.91 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 37 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 5568 unused Assets / (6.5 MB). Loaded Objects now: 6234.
+Memory consumption went from 128.0 MB to 121.5 MB.
+Total: 9.163200 ms (FindLiveObjects: 0.566000 ms CreateObjectMapping: 0.548700 ms MarkObjects: 5.151600 ms  DeleteObjects: 2.895600 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 44137.220167 seconds.
+  path: Assets/CreativeCore_Audio/Scenes
+  artifactKey: Guid(d12e6ad65eae547deabab4be3006db90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CreativeCore_Audio/Scenes using Guid(d12e6ad65eae547deabab4be3006db90) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f5405c4cd68f0aa65074e6fe87d53b69') in 0.0057825 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 556.171409 seconds.
+  path: Assets/CreativeCore_Audio/StarterAssets
+  artifactKey: Guid(f499435b799a80345b816424f97072b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CreativeCore_Audio/StarterAssets using Guid(f499435b799a80345b816424f97072b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b3271ba2e66c534a890f785a1d05c62d') in 0.0124176 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004298 seconds.
+  path: Assets/CreativeCore_Audio/StarterAssets/Readme.asset
+  artifactKey: Guid(4181bfe715a83e843b7538d750dc57cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CreativeCore_Audio/StarterAssets/Readme.asset using Guid(4181bfe715a83e843b7538d750dc57cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '67f011c655bdc7a141e7c138186cb785') in 0.0233516 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.866236 seconds.
+  path: Assets/CreativeCore_Audio/StarterAssets/ThirdPersonController
+  artifactKey: Guid(c2cc90dadbe98e349b86c7268ea8a9c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CreativeCore_Audio/StarterAssets/ThirdPersonController using Guid(c2cc90dadbe98e349b86c7268ea8a9c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'a11dd2dcc04f4eaf7132dc6847509075') in 0.0008862 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.574639 seconds.
+  path: Assets/CreativeCore_Audio/StarterAssets/ThirdPersonController/Character
+  artifactKey: Guid(fbcca20baef095045b09aaa318fba17c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CreativeCore_Audio/StarterAssets/ThirdPersonController/Character using Guid(fbcca20baef095045b09aaa318fba17c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ace7dd233356e0b906168432ea327972') in 0.0008637 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.036667 seconds.
+  path: Assets/CreativeCore_Audio/StarterAssets/ThirdPersonController/Character/TutorialAnimations
+  artifactKey: Guid(62fce9d6f2be8c5478a3514406ad9ef3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CreativeCore_Audio/StarterAssets/ThirdPersonController/Character/TutorialAnimations using Guid(62fce9d6f2be8c5478a3514406ad9ef3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7c7e685ad0e926cf31de4fa93e650c2f') in 0.001189 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.058050 seconds.
+  path: Assets/CreativeCore_Audio/StarterAssets/ThirdPersonController/Character/TutorialAnimations/Jump--InAir.anim.fbx
+  artifactKey: Guid(6ad72b1a34ec09b4ba4417c82c77874c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CreativeCore_Audio/StarterAssets/ThirdPersonController/Character/TutorialAnimations/Jump--InAir.anim.fbx using Guid(6ad72b1a34ec09b4ba4417c82c77874c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4a955d4107a2a4865a17034590cba52a') in 0.0374971 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 143
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/CreativeCore_Audio/StarterAssets/ThirdPersonController/Character/TutorialAnimations/Locomotion--Run_N.anim.fbx
+  artifactKey: Guid(64688b370160e7149ba6e3fdd0763f5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CreativeCore_Audio/StarterAssets/ThirdPersonController/Character/TutorialAnimations/Locomotion--Run_N.anim.fbx using Guid(64688b370160e7149ba6e3fdd0763f5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'b728b24fc26e4424207bd20cf338591b') in 0.0064661 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 143
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/CreativeCore_Audio/StarterAssets/ThirdPersonController/Character/TutorialAnimations/Locomotion--Walk_N_Land.anim.fbx
+  artifactKey: Guid(0ad9b0feeb69adc48bdc0a85bc92134a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CreativeCore_Audio/StarterAssets/ThirdPersonController/Character/TutorialAnimations/Locomotion--Walk_N_Land.anim.fbx using Guid(0ad9b0feeb69adc48bdc0a85bc92134a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '7679bbd48171fe2d3a5e6f5e676691a4') in 0.006695 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 143
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/CreativeCore_Audio/StarterAssets/ThirdPersonController/Character/TutorialAnimations/Stand--Idle.anim.fbx
+  artifactKey: Guid(8deed40c648fbb340b3f776f3ee6271c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CreativeCore_Audio/StarterAssets/ThirdPersonController/Character/TutorialAnimations/Stand--Idle.anim.fbx using Guid(8deed40c648fbb340b3f776f3ee6271c) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '251c916280b7d4b290ce5fc87aabef2f') in 0.0073195 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 143
+
+========================================================================
+Received Import Request.
+  Time since last request: 334.017115 seconds.
+  path: Assets/CreativeCore_Audio/StarterAssets/ThirdPersonController/Character/TutorialAnimations/Locomotion--Walk_N.anim.fbx
+  artifactKey: Guid(0b5a15d029b45fa4984e490e39e5bc93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CreativeCore_Audio/StarterAssets/ThirdPersonController/Character/TutorialAnimations/Locomotion--Walk_N.anim.fbx using Guid(0b5a15d029b45fa4984e490e39e5bc93) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bdf4903188eebdd2cda03fa98d674d11') in 0.0053486 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 143
+
+========================================================================
+Received Import Request.
+  Time since last request: 108.666595 seconds.
+  path: Assets/CreativeCore_Audio/StarterAssets/ThirdPersonController/Character/TutorialAnimations/Locomotion--Run_N.anim.fbx
+  artifactKey: Guid(64688b370160e7149ba6e3fdd0763f5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CreativeCore_Audio/StarterAssets/ThirdPersonController/Character/TutorialAnimations/Locomotion--Run_N.anim.fbx using Guid(64688b370160e7149ba6e3fdd0763f5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '03bf279f585ef7a934d3a839ab9e024a') in 0.0047459 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 143
+
+========================================================================
+Received Import Request.
+  Time since last request: 39.624674 seconds.
+  path: Assets/CreativeCore_Audio/StarterAssets/ThirdPersonController/Character/TutorialAnimations/Jump--Jump.anim.fbx
+  artifactKey: Guid(9f549d84fe7135940a93565fcdfc4d93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CreativeCore_Audio/StarterAssets/ThirdPersonController/Character/TutorialAnimations/Jump--Jump.anim.fbx using Guid(9f549d84fe7135940a93565fcdfc4d93) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '89afdb704fc2ee4fa9c549758e2dd1ce') in 0.0051864 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 144
+
+========================================================================
+Received Import Request.
+  Time since last request: 59.248833 seconds.
+  path: Assets/CreativeCore_Audio/StarterAssets/ThirdPersonController/Character/TutorialAnimations/Locomotion--Run_N_Land.anim.fbx
+  artifactKey: Guid(9444c1224dbabc74badcb0771f963c66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CreativeCore_Audio/StarterAssets/ThirdPersonController/Character/TutorialAnimations/Locomotion--Run_N_Land.anim.fbx using Guid(9444c1224dbabc74badcb0771f963c66) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f225c63522ab41a9fc10623c98f7433a') in 0.004496 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 143
+
+========================================================================
+Received Import Request.
+  Time since last request: 35.909875 seconds.
+  path: Assets/TutorialInfo
+  artifactKey: Guid(ba062aa6c92b140379dbc06b43dd3b9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TutorialInfo using Guid(ba062aa6c92b140379dbc06b43dd3b9b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'bd0ce3b9fb2b0078fcd59af112aef3b6') in 0.0008904 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 39.159470 seconds.
+  path: Assets/CreativeCore_Audio/Scenes/Audio_Outdoor_Scene.unity
+  artifactKey: Guid(ec13f7d53293c2040bfd3093f8760252) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CreativeCore_Audio/Scenes/Audio_Outdoor_Scene.unity using Guid(ec13f7d53293c2040bfd3093f8760252) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f184c7ded717e6514b28d741f4a78a9d') in 0.0008656 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 53.936349 seconds.
+  path: Assets/DefaultVolumeProfile.asset
+  artifactKey: Guid(8be2a31b1e96642dab71a9a3cc3f68fb) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/DefaultVolumeProfile.asset using Guid(8be2a31b1e96642dab71a9a3cc3f68fb) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e61b8e5655f3889e557eb0e707d51679') in 0.2090327 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/CreativeCore_Audio/Audio/waterstep2.wav
+  artifactKey: Guid(514701ef923b8604bbd4f15f7ffc2022) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CreativeCore_Audio/Audio/waterstep2.wav using Guid(514701ef923b8604bbd4f15f7ffc2022) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '89b7f4bddb0258fa26e140e7ec00ca20') in 0.0394378 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/CreativeCore_Audio/Scenes/TutorialScene_Audio_Indoor/Lightmap-2_comp_light.exr
+  artifactKey: Guid(2e9986d7a48114a4fa35d6a8505c7f7c) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CreativeCore_Audio/Scenes/TutorialScene_Audio_Indoor/Lightmap-2_comp_light.exr using Guid(2e9986d7a48114a4fa35d6a8505c7f7c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'cab0959cd9ec9d569dba99dddfb3050d') in 0.0630667 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/CreativeCore_Audio/Scenes/TutorialScene_Audio_Indoor/Lightmap-0_comp_dir.png
+  artifactKey: Guid(754db26dc8b27b248bbcec3310f8c76a) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CreativeCore_Audio/Scenes/TutorialScene_Audio_Indoor/Lightmap-0_comp_dir.png using Guid(754db26dc8b27b248bbcec3310f8c76a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '8f17234986ae3034a8bfadc724cea79e') in 0.0367164 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/CreativeCore_Audio/Materials/GrayShade3.mat
+  artifactKey: Guid(c1368253e3e7e2044b3f6b8bbdae2288) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CreativeCore_Audio/Materials/GrayShade3.mat using Guid(c1368253e3e7e2044b3f6b8bbdae2288) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '5ae721260f1fcd722c0d3844ab75f509') in 0.0332954 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/CreativeCore_Audio/Audio/cavestep4.wav
+  artifactKey: Guid(51e36d69021dbd743b6533dc6bcfa157) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CreativeCore_Audio/Audio/cavestep4.wav using Guid(51e36d69021dbd743b6533dc6bcfa157) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '57065bd63feaa37def5c6f416fbbde4f') in 0.029166 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/CreativeCore_Audio/Scenes/TutorialScene_Audio_Indoor/Lightmap-1_comp_dir.png
+  artifactKey: Guid(80158b8b627665c408deebe7eb159712) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CreativeCore_Audio/Scenes/TutorialScene_Audio_Indoor/Lightmap-1_comp_dir.png using Guid(80158b8b627665c408deebe7eb159712) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '88b3ef76d4bd83695833d275a401a2f8') in 0.0509114 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/CreativeCore_Audio/Scripts/FootstepManager.cs
+  artifactKey: Guid(031988b285dbbbb4883f22df90b09b63) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CreativeCore_Audio/Scripts/FootstepManager.cs using Guid(031988b285dbbbb4883f22df90b09b63) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f954998512923f9185f0815cb2793d66') in 0.0263155 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/CreativeCore_Audio/StarterAssets/Editor/ScriptingDefineUtils.cs
+  artifactKey: Guid(19d5e2567c974ac6817cbc0ae63e638c) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CreativeCore_Audio/StarterAssets/Editor/ScriptingDefineUtils.cs using Guid(19d5e2567c974ac6817cbc0ae63e638c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '1f1fe22c34b69961c0720a256f42d1b9') in 0.0159323 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/Settings/PC_RPAsset.asset
+  artifactKey: Guid(4b83569d67af61e458304325a23e5dfd) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Settings/PC_RPAsset.asset using Guid(4b83569d67af61e458304325a23e5dfd) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '97d9a91228a0d337e42fbffb2a828f68') in 0.0999251 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 8
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/CreativeCore_Audio/Scenes/TutorialScene_Audio_Outdoor/Lightmap-2_comp_light.exr
+  artifactKey: Guid(5a0f4a794a366344db9d7896d4755ceb) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CreativeCore_Audio/Scenes/TutorialScene_Audio_Outdoor/Lightmap-2_comp_light.exr using Guid(5a0f4a794a366344db9d7896d4755ceb) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '6f9c8d4177c533274917f2dadd46a20a') in 0.0215406 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/CreativeCore_Audio/Scripts/SimpleCameraController.cs
+  artifactKey: Guid(be76e5f14cfee674cb30b491fb72b09b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CreativeCore_Audio/Scripts/SimpleCameraController.cs using Guid(be76e5f14cfee674cb30b491fb72b09b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '2d3000709dadeb9cf6248b1a94195500') in 0.0167834 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/CreativeCore_Audio/Scenes/TutorialScene_Audio_Indoor/Lightmap-0_comp_light.exr
+  artifactKey: Guid(c0ad6c59c100b4044815f031d3172638) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CreativeCore_Audio/Scenes/TutorialScene_Audio_Indoor/Lightmap-0_comp_light.exr using Guid(c0ad6c59c100b4044815f031d3172638) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '263e722d83a80615cdb4a48f29847250') in 0.0335805 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/CreativeCore_Audio/ClosedCaptionSystem/Scripts/System/CCDatabase.cs
+  artifactKey: Guid(015e9e492ced157498913c229c9f2a6c) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CreativeCore_Audio/ClosedCaptionSystem/Scripts/System/CCDatabase.cs using Guid(015e9e492ced157498913c229c9f2a6c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '180160713c83e3108c69477cc0f62feb') in 0.0134064 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/CreativeCore_Audio/Settings/Lighting/LightmapParameters.giparams
+  artifactKey: Guid(fe6d34a45b0127649a7ad96726de4d3f) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CreativeCore_Audio/Settings/Lighting/LightmapParameters.giparams using Guid(fe6d34a45b0127649a7ad96726de4d3f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '5e41fe5db1aa9debe0a33909794b0bdb') in 0.0385361 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/CreativeCore_Audio/Prefabs/Firepit.prefab
+  artifactKey: Guid(37a55db759a372345884f6fbcefab66b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CreativeCore_Audio/Prefabs/Firepit.prefab using Guid(37a55db759a372345884f6fbcefab66b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '9c7cc1f0d244567a72856258f0ec3553') in 0.0409957 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 27
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/CreativeCore_Audio/Materials/Red.mat
+  artifactKey: Guid(8a33237ef07ea744e8b9d82aec2c52b6) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CreativeCore_Audio/Materials/Red.mat using Guid(8a33237ef07ea744e8b9d82aec2c52b6) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '67431803a221eda94066788b7bd39c7c') in 0.0185699 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000039 seconds.
+  path: Assets/CreativeCore_Audio/StarterAssets/InputSystem/StarterAssets.inputactions
+  artifactKey: Guid(4419d82f33d36e848b3ed5af4c8da37e) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CreativeCore_Audio/StarterAssets/InputSystem/StarterAssets.inputactions using Guid(4419d82f33d36e848b3ed5af4c8da37e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '37ab6b3ad682afeba138684d05376ab2') in 0.1875699 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/TutorialInfo/Scripts/Readme.cs
+  artifactKey: Guid(fcf7219bab7fe46a1ad266029b2fee19) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/TutorialInfo/Scripts/Readme.cs using Guid(fcf7219bab7fe46a1ad266029b2fee19) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'edd7f70e916006e091000d6c64610e01') in 0.0166022 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/CreativeCore_Audio/StarterAssets/InputSystem/StarterAssets.inputsettings.asset
+  artifactKey: Guid(9e7be553448fa2546aea5752021cbcf7) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CreativeCore_Audio/StarterAssets/InputSystem/StarterAssets.inputsettings.asset using Guid(9e7be553448fa2546aea5752021cbcf7) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd762230463336ce84373f11f6950b713') in 0.0213245 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/CreativeCore_Audio/Scenes/FinalScene_Audio_Outdoor/Lightmap-1_comp_dir.png
+  artifactKey: Guid(7ec088b25e87d1d448857873ca64bf0b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CreativeCore_Audio/Scenes/FinalScene_Audio_Outdoor/Lightmap-1_comp_dir.png using Guid(7ec088b25e87d1d448857873ca64bf0b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '8d025d99b5463c65bea2013c7fad5831') in 0.0240058 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/CreativeCore_Audio/StarterAssets/ThirdPersonController/Prefabs/MainCamera.prefab
+  artifactKey: Guid(f6d148d888ffbf54b9afe9936dfaec1f) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CreativeCore_Audio/StarterAssets/ThirdPersonController/Prefabs/MainCamera.prefab using Guid(f6d148d888ffbf54b9afe9936dfaec1f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'dc528f4f54d0c51fb6aac7cd3fca9b7f') in 0.0634643 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 7
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/CreativeCore_Audio/StarterAssets/ThirdPersonController/Character/CompleteAnimations/CompleteStarterAssetsThirdPerson.controller
+  artifactKey: Guid(40db3173a05ae3242b1c182a09b0a183) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CreativeCore_Audio/StarterAssets/ThirdPersonController/Character/CompleteAnimations/CompleteStarterAssetsThirdPerson.controller using Guid(40db3173a05ae3242b1c182a09b0a183) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '001abd09d72962b6be837c6716d8f149') in 0.104619 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 22
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/CreativeCore_Audio/Scenes/Audio_Indoor_Scene.unity
+  artifactKey: Guid(e1078e3964fac294d994d872d5cee48f) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CreativeCore_Audio/Scenes/Audio_Indoor_Scene.unity using Guid(e1078e3964fac294d994d872d5cee48f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b70c0e8b53936c9a5d371a183f72c16b') in 0.0420788 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/CreativeCore_Audio/Materials/GrayShade2.mat
+  artifactKey: Guid(a8047d7f697e02f4aa0ff677fbd237d9) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CreativeCore_Audio/Materials/GrayShade2.mat using Guid(a8047d7f697e02f4aa0ff677fbd237d9) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '737e75aefc2e0c070b55454b8dae3d7c') in 0.024497 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/CreativeCore_Audio/Scenes/FinalScene_Audio_Outdoor/Lightmap-0_comp_dir.png
+  artifactKey: Guid(e512152ed4766ba49a25620857755bc7) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CreativeCore_Audio/Scenes/FinalScene_Audio_Outdoor/Lightmap-0_comp_dir.png using Guid(e512152ed4766ba49a25620857755bc7) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '24ee7d4560c66f7c418f762d0a59233a') in 0.0330468 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/CreativeCore_Audio/VFX/Fire/SparksTexture.png
+  artifactKey: Guid(9573ee59aed008141857960369ee06a0) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CreativeCore_Audio/VFX/Fire/SparksTexture.png using Guid(9573ee59aed008141857960369ee06a0) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e3489d1254686d7293cf7039b02e8b58') in 0.0371634 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/CreativeCore_Audio/Scenes/FinalScene_Audio_Outdoor/Lightmap-2_comp_light.exr
+  artifactKey: Guid(15d3fec8164e29340ae56c7f75dea7be) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CreativeCore_Audio/Scenes/FinalScene_Audio_Outdoor/Lightmap-2_comp_light.exr using Guid(15d3fec8164e29340ae56c7f75dea7be) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '36bd6e25815f3fb597815f3ecc7057a8') in 0.0242809 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/CreativeCore_Audio/StarterAssets/ThirdPersonController/Character/TutorialAnimations/Locomotion--Run_N.anim.fbx
+  artifactKey: Guid(64688b370160e7149ba6e3fdd0763f5e) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CreativeCore_Audio/StarterAssets/ThirdPersonController/Character/TutorialAnimations/Locomotion--Run_N.anim.fbx using Guid(64688b370160e7149ba6e3fdd0763f5e) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '779a490629ecf579af130499ce1c6360') in 0.0440572 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 144
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/CreativeCore_Audio/StarterAssets/TutorialInfo/Icons/ReadMeImg.PNG
+  artifactKey: Guid(44a17a5b205fcd349a24700e6f5615bd) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CreativeCore_Audio/StarterAssets/TutorialInfo/Icons/ReadMeImg.PNG using Guid(44a17a5b205fcd349a24700e6f5615bd) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd662ee4594865bab3f7c6759bae84373') in 0.0307976 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/CreativeCore_Audio/Materials/GrayDoublesided.mat
+  artifactKey: Guid(be773e70b0ab6834089437eed3fe4db6) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CreativeCore_Audio/Materials/GrayDoublesided.mat using Guid(be773e70b0ab6834089437eed3fe4db6) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f451a87e3d0194c9196611477441a4aa') in 0.017259 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/CreativeCore_Audio/Settings/Rendering/UniversalRP-HighQuality.asset
+  artifactKey: Guid(19ba41d7c0026c3459d37c2fe90c55a0) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CreativeCore_Audio/Settings/Rendering/UniversalRP-HighQuality.asset using Guid(19ba41d7c0026c3459d37c2fe90c55a0) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'e34ed54949565ac1f21488f198f450ab') in 0.0280003 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/CreativeCore_Audio/Scenes/TutorialScene_Audio_Outdoor/Lightmap-2_comp_dir.png
+  artifactKey: Guid(98ac9b02de2851246b7eacba3ebee859) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CreativeCore_Audio/Scenes/TutorialScene_Audio_Outdoor/Lightmap-2_comp_dir.png using Guid(98ac9b02de2851246b7eacba3ebee859) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '52a583082167c13f91b45947add25831') in 0.028335 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/CreativeCore_Audio/Scenes/TutorialScene_Audio_Outdoor/ReflectionProbe-0.exr
+  artifactKey: Guid(edf5c0ac0e3122042ad282010efbfb43) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CreativeCore_Audio/Scenes/TutorialScene_Audio_Outdoor/ReflectionProbe-0.exr using Guid(edf5c0ac0e3122042ad282010efbfb43) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'aab02825e1d1786080829100767b66b2') in 0.0213692 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/CreativeCore_Audio/Scenes/FinalScene_Audio_Outdoor/Lightmap-2_comp_dir.png
+  artifactKey: Guid(4c0092d4c16decb41a43bf2b87c45e7b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CreativeCore_Audio/Scenes/FinalScene_Audio_Outdoor/Lightmap-2_comp_dir.png using Guid(4c0092d4c16decb41a43bf2b87c45e7b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '865730ec0d2d4b936a7c954e0112c6f7') in 0.0256892 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/Settings/UniversalRenderPipelineGlobalSettings.asset
+  artifactKey: Guid(18dc0cd2c080841dea60987a38ce93fa) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/Settings/UniversalRenderPipelineGlobalSettings.asset using Guid(18dc0cd2c080841dea60987a38ce93fa) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a4a7009e8f4118d0d1862b2e192c5c51') in 0.1060715 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 24
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/CreativeCore_Audio/Scenes/TutorialScene_Audio_Outdoor/LightingData.asset
+  artifactKey: Guid(b329df7e7e6275e48b84cd8125791356) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CreativeCore_Audio/Scenes/TutorialScene_Audio_Outdoor/LightingData.asset using Guid(b329df7e7e6275e48b84cd8125791356) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '815d1be9a0681ba254efa3dec68791e9') in 0.0285781 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/CreativeCore_Audio/StarterAssets/ThirdPersonController/Character/Textures/Armature_Body_AlbedoTransparency.tif
+  artifactKey: Guid(28d78c5517421f047b88352f3b18e8e7) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CreativeCore_Audio/StarterAssets/ThirdPersonController/Character/Textures/Armature_Body_AlbedoTransparency.tif using Guid(28d78c5517421f047b88352f3b18e8e7) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '5e9c1e2e617d174ae4d0c6157196de61') in 0.0309168 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/CreativeCore_Audio/StarterAssets/ThirdPersonController/Character/Models/Armature.fbx
+  artifactKey: Guid(36078ab0369161e49a29d349ae3e0739) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CreativeCore_Audio/StarterAssets/ThirdPersonController/Character/Models/Armature.fbx using Guid(36078ab0369161e49a29d349ae3e0739) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b0a219846758f158caedce3d2328b3e1') in 0.0460324 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 150
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/CreativeCore_Audio/Models/GalleryInterior.fbx
+  artifactKey: Guid(e4384b4442f48e0409fcdc90e24e5f44) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CreativeCore_Audio/Models/GalleryInterior.fbx using Guid(e4384b4442f48e0409fcdc90e24e5f44) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '76dca7378c6af05cd3e5858a46c144ad') in 0.0615207 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 189
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/CreativeCore_Audio/Materials/Blue.mat
+  artifactKey: Guid(7e43b487890baf74796ab34547473a7d) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CreativeCore_Audio/Materials/Blue.mat using Guid(7e43b487890baf74796ab34547473a7d) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '1c6c6073d99a2c85bde371a0e46e8c59') in 0.0176755 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/CreativeCore_Audio/StarterAssets/ThirdPersonController/Character/TutorialAnimations/Locomotion--Walk_N.anim.fbx
+  artifactKey: Guid(0b5a15d029b45fa4984e490e39e5bc93) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CreativeCore_Audio/StarterAssets/ThirdPersonController/Character/TutorialAnimations/Locomotion--Walk_N.anim.fbx using Guid(0b5a15d029b45fa4984e490e39e5bc93) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '417a03294cbc99da06d3b40b153f4ea5') in 0.0235994 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 144
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/CreativeCore_Audio/StarterAssets/ThirdPersonController/Character/CompleteAnimations/CompleteLocomotion--Walk_N.anim.fbx
+  artifactKey: Guid(8269a9f8cf495034c817722ac21f309f) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CreativeCore_Audio/StarterAssets/ThirdPersonController/Character/CompleteAnimations/CompleteLocomotion--Walk_N.anim.fbx using Guid(8269a9f8cf495034c817722ac21f309f) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'acfeff38649fd26607c378b669e156db') in 0.0261552 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 144
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/CreativeCore_Audio/Audio/WaterDroplets.mp3
+  artifactKey: Guid(28b85e10f376f0f47868e11d36b707c9) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CreativeCore_Audio/Audio/WaterDroplets.mp3 using Guid(28b85e10f376f0f47868e11d36b707c9) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '7b0a8fdad5a108cabcf81178d6c4fdc3') in 0.0690163 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/CreativeCore_Audio/StarterAssets/ThirdPersonController/Character/Textures/Armature_Legs_AlbedoTransparency.tif
+  artifactKey: Guid(c444e3d02d2fcff4d9fe5211d67652a0) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CreativeCore_Audio/StarterAssets/ThirdPersonController/Character/Textures/Armature_Legs_AlbedoTransparency.tif using Guid(c444e3d02d2fcff4d9fe5211d67652a0) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '0fd42fb9f0dc9e2dd2482797064df95b') in 0.0236068 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/CreativeCore_Audio/StarterAssets/Editor/PackageChecker/PackageImportList.txt
+  artifactKey: Guid(77db531f6c7d0ce4da51f6017f51c622) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CreativeCore_Audio/StarterAssets/Editor/PackageChecker/PackageImportList.txt using Guid(77db531f6c7d0ce4da51f6017f51c622) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '933f694ad560653b6f633a1eafd2ac4d') in 0.0335919 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/CreativeCore_Audio/StarterAssets/ThirdPersonController/Character/TutorialAnimations/Locomotion--Walk_N_Land.anim.fbx
+  artifactKey: Guid(0ad9b0feeb69adc48bdc0a85bc92134a) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CreativeCore_Audio/StarterAssets/ThirdPersonController/Character/TutorialAnimations/Locomotion--Walk_N_Land.anim.fbx using Guid(0ad9b0feeb69adc48bdc0a85bc92134a) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '11b3fdd6053e35548d22bdb285ff2c8d') in 0.0321719 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 144
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/CreativeCore_Audio/StarterAssets/StarterAssets_Documentation.pdf
+  artifactKey: Guid(a4b3ee9030379a042983d43d671fcc92) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CreativeCore_Audio/StarterAssets/StarterAssets_Documentation.pdf using Guid(a4b3ee9030379a042983d43d671fcc92) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '9807408a90d4e389c9beca68c35e6e13') in 0.0121769 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/CreativeCore_Audio/StarterAssets/ThirdPersonController/Character/CompleteAnimations/CompleteJump--InAir.anim.fbx
+  artifactKey: Guid(063aa479676c4084ebf187660ca0a7b8) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CreativeCore_Audio/StarterAssets/ThirdPersonController/Character/CompleteAnimations/CompleteJump--InAir.anim.fbx using Guid(063aa479676c4084ebf187660ca0a7b8) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '48c1700735f08c17d2d6ef6e72285d9a') in 0.0270501 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 144
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/CreativeCore_Audio/Audio/waterstep3.wav
+  artifactKey: Guid(65f8c04d378a3c34fb57a3f2fca8b102) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CreativeCore_Audio/Audio/waterstep3.wav using Guid(65f8c04d378a3c34fb57a3f2fca8b102) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '1c3f00158200fca7b260f36244dea1d0') in 0.0300838 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/CreativeCore_Audio/StarterAssets/Editor/PackageChecker/PackageChecker.cs
+  artifactKey: Guid(7315d24058889bb4da8c959c3f2ebaa2) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CreativeCore_Audio/StarterAssets/Editor/PackageChecker/PackageChecker.cs using Guid(7315d24058889bb4da8c959c3f2ebaa2) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ec1622afeb3c8838325d189cc8045697') in 0.017859 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000041 seconds.
+  path: Assets/CreativeCore_Audio/StarterAssets/ThirdPersonController/Character/TutorialAnimations/Jump--InAir.anim.fbx
+  artifactKey: Guid(6ad72b1a34ec09b4ba4417c82c77874c) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CreativeCore_Audio/StarterAssets/ThirdPersonController/Character/TutorialAnimations/Jump--InAir.anim.fbx using Guid(6ad72b1a34ec09b4ba4417c82c77874c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'f507fa9a768ca44c56b9089e3ca347ec') in 0.0243512 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 144
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/CreativeCore_Audio/Scenes/TutorialScene_Audio_Indoor/Lightmap-1_comp_light.exr
+  artifactKey: Guid(60a873c8abc2e544388aa7449025deb7) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CreativeCore_Audio/Scenes/TutorialScene_Audio_Indoor/Lightmap-1_comp_light.exr using Guid(60a873c8abc2e544388aa7449025deb7) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'cce5b46e78a53e391bdb7b0b0c612410') in 0.0404648 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/CreativeCore_Audio/Settings/PostProcessing/PostProcessingProfile_Generic.asset
+  artifactKey: Guid(7e98ee08b22ba33468b1b347fa056b68) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CreativeCore_Audio/Settings/PostProcessing/PostProcessingProfile_Generic.asset using Guid(7e98ee08b22ba33468b1b347fa056b68) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '77b48888bf7cc6b64735cac76fa24cd7') in 0.0174554 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/CreativeCore_Audio/Audio/AmbientWaterfall.wav
+  artifactKey: Guid(e9f8a2ce35edcd14aa4a811eed483b42) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CreativeCore_Audio/Audio/AmbientWaterfall.wav using Guid(e9f8a2ce35edcd14aa4a811eed483b42) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '0e886ece67586d49dc54a6030863069f') in 0.0469421 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/CreativeCore_Audio/ClosedCaptionSystem/Textures/UI/CCIndicator.png
+  artifactKey: Guid(128aa030d6de5274ab1a010ee9473a62) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CreativeCore_Audio/ClosedCaptionSystem/Textures/UI/CCIndicator.png using Guid(128aa030d6de5274ab1a010ee9473a62) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd22f17e05cb6f48a5373c74a07ee452e') in 0.0274401 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 3
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/CreativeCore_Audio/Settings/Rendering/UniversalRP-LowQuality.asset
+  artifactKey: Guid(a31e9f9f9c9d4b9429ed0d1234e22103) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CreativeCore_Audio/Settings/Rendering/UniversalRP-LowQuality.asset using Guid(a31e9f9f9c9d4b9429ed0d1234e22103) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '6b530c0495123d0e3c240d78564b6c05') in 0.0433827 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/CreativeCore_Audio/Materials/Grass.mat
+  artifactKey: Guid(b3582eb90927b47e7b50686bf0f90fb3) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CreativeCore_Audio/Materials/Grass.mat using Guid(b3582eb90927b47e7b50686bf0f90fb3) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '8e8a54f7e4462873a7aadb255bea4747') in 0.0171255 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/CreativeCore_Audio/StarterAssets/ThirdPersonController/Character/CompleteAnimations/CompleteLocomotion--Walk_N_Land.anim.fbx
+  artifactKey: Guid(325a26d62b61fa94cb3c97c435efebc5) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CreativeCore_Audio/StarterAssets/ThirdPersonController/Character/CompleteAnimations/CompleteLocomotion--Walk_N_Land.anim.fbx using Guid(325a26d62b61fa94cb3c97c435efebc5) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '250926688d12e41ec8cb542e6eb2237c') in 0.0312322 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 144
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/CreativeCore_Audio/Prefabs/CompleteThirdPersonController.prefab
+  artifactKey: Guid(101233d53478ebc48b1ce4e3c836fa5c) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CreativeCore_Audio/Prefabs/CompleteThirdPersonController.prefab using Guid(101233d53478ebc48b1ce4e3c836fa5c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'fc2c6b47e8e51266396b935dfc46035e') in 0.0387612 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 191
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/CreativeCore_Audio/VFX/Fire/Fire_ParticleSystem_Prefab.prefab
+  artifactKey: Guid(c7d67230f1fbbde4c86797e9b55749e3) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CreativeCore_Audio/VFX/Fire/Fire_ParticleSystem_Prefab.prefab using Guid(c7d67230f1fbbde4c86797e9b55749e3) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '3aab41c8d46bfa7d88911860b85c86bb') in 0.1267421 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/CreativeCore_Audio/StarterAssets/Readme.asset
+  artifactKey: Guid(4181bfe715a83e843b7538d750dc57cc) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CreativeCore_Audio/StarterAssets/Readme.asset using Guid(4181bfe715a83e843b7538d750dc57cc) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '56fd967cf141c86a1a4f6891718d0e15') in 0.0187063 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/CreativeCore_Audio/StarterAssets/InputSystem/StarterAssetsInputs.cs
+  artifactKey: Guid(e087ecce43ebbff45a1b360637807d93) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CreativeCore_Audio/StarterAssets/InputSystem/StarterAssetsInputs.cs using Guid(e087ecce43ebbff45a1b360637807d93) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '1077187f56dc17694a595a16daaab2fa') in 0.0179216 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/CreativeCore_Audio/StarterAssets/ThirdPersonController/Character/Textures/Armature_Arms_MetallicSmoothness.tif
+  artifactKey: Guid(b41d630ccc344454bb1f27587f9acd70) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CreativeCore_Audio/StarterAssets/ThirdPersonController/Character/Textures/Armature_Arms_MetallicSmoothness.tif using Guid(b41d630ccc344454bb1f27587f9acd70) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'b705d903dfd5968d6d99d8965227d21f') in 0.0249442 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000064 seconds.
+  path: Assets/CreativeCore_Audio/Audio/cavestep1.wav
+  artifactKey: Guid(e6addbf6c83b992459c02da48a938195) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CreativeCore_Audio/Audio/cavestep1.wav using Guid(e6addbf6c83b992459c02da48a938195) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '4e826047784e50d420e621f59877cb08') in 0.0239303 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/CreativeCore_Audio/Scenes/FinalScene_Audio_Outdoor/ReflectionProbe-1.exr
+  artifactKey: Guid(6bb1a136e196a354792fbfca5c76f707) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CreativeCore_Audio/Scenes/FinalScene_Audio_Outdoor/ReflectionProbe-1.exr using Guid(6bb1a136e196a354792fbfca5c76f707) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '9564a9954311769006d91e58d3cd8da7') in 0.0210176 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000071 seconds.
+  path: Assets/CreativeCore_Audio/StarterAssets/ThirdPersonController/Character/Materials/M_Armature_Legs.mat
+  artifactKey: Guid(8b25e99361ac31d4e9ae83c46aee69ea) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CreativeCore_Audio/StarterAssets/ThirdPersonController/Character/Materials/M_Armature_Legs.mat using Guid(8b25e99361ac31d4e9ae83c46aee69ea) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '77a6cbf5a05c94cdde0bd45e610bcab6') in 0.0350976 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 4
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/CreativeCore_Audio/Materials/Glass.mat
+  artifactKey: Guid(c3201b42948a8ee41b3714ce081751e4) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CreativeCore_Audio/Materials/Glass.mat using Guid(c3201b42948a8ee41b3714ce081751e4) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd4c995cc5afca9f9d90b7750a376b28c') in 0.0199535 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/CreativeCore_Audio/StarterAssets/ThirdPersonController/Character/Textures/Armature_Legs_MetallicSmoothness.tif
+  artifactKey: Guid(1c98c94efa7792645972ecf95e6f86c2) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CreativeCore_Audio/StarterAssets/ThirdPersonController/Character/Textures/Armature_Legs_MetallicSmoothness.tif using Guid(1c98c94efa7792645972ecf95e6f86c2) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '647a23f4e78284c5750600ada99f966e') in 0.0297945 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/CreativeCore_Audio/StarterAssets/ThirdPersonController/Character/Textures/Armature_Legs_Normal.tif
+  artifactKey: Guid(b2c5d9c39850da946ae135dcb57faaea) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CreativeCore_Audio/StarterAssets/ThirdPersonController/Character/Textures/Armature_Legs_Normal.tif using Guid(b2c5d9c39850da946ae135dcb57faaea) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '8b096a84c78b00552f2be4e5c8245f4f') in 0.0268708 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000040 seconds.
+  path: Assets/CreativeCore_Audio/Scenes/FinalScene_Audio_Outdoor/Lightmap-0_comp_light.exr
+  artifactKey: Guid(18b61715fbe322c488c5c097ac65c6db) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CreativeCore_Audio/Scenes/FinalScene_Audio_Outdoor/Lightmap-0_comp_light.exr using Guid(18b61715fbe322c488c5c097ac65c6db) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'ded400287a1e62e66dc2867deca8b8d8') in 0.0242999 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/CreativeCore_Audio/StarterAssets/Editor/PackageImportList.txt
+  artifactKey: Guid(30028ae89cfa42944bcbcc2e0960e55b) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CreativeCore_Audio/StarterAssets/Editor/PackageImportList.txt using Guid(30028ae89cfa42944bcbcc2e0960e55b) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '0854248871123a180611019e95eec011') in 0.0273069 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/CreativeCore_Audio/Audio/cavestep3.wav
+  artifactKey: Guid(b2943a610e7a57b419faf35424b316d0) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CreativeCore_Audio/Audio/cavestep3.wav using Guid(b2943a610e7a57b419faf35424b316d0) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'a26248008d2e28d6684653e4066fa381') in 0.0339161 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/CreativeCore_Audio/Scenes/FinalScene_Audio_Outdoor/ReflectionProbe-0.exr
+  artifactKey: Guid(11fb97c4db1a1e74ebcec5156ea2139c) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CreativeCore_Audio/Scenes/FinalScene_Audio_Outdoor/ReflectionProbe-0.exr using Guid(11fb97c4db1a1e74ebcec5156ea2139c) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '5ac2fa968993f1a6dc2bc31c0daf214f') in 0.0242019 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/CreativeCore_Audio/Scenes/Audio_Outdoor_Scene.unity
+  artifactKey: Guid(ec13f7d53293c2040bfd3093f8760252) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CreativeCore_Audio/Scenes/Audio_Outdoor_Scene.unity using Guid(ec13f7d53293c2040bfd3093f8760252) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '593f2926681084491234ddaef2a40797') in 0.0233363 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/CreativeCore_Audio/StarterAssets/ThirdPersonController/Scripts/BasicRigidBodyPush.cs
+  artifactKey: Guid(909d917d73a63f940ac158d02e936645) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CreativeCore_Audio/StarterAssets/ThirdPersonController/Scripts/BasicRigidBodyPush.cs using Guid(909d917d73a63f940ac158d02e936645) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '6d8f45e566e351e483389deeb4980231') in 0.0148346 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.153470 seconds.
+  path: Assets/CreativeCore_Audio/Scenes/Audio_Outdoor_Scene.unity
+  artifactKey: Guid(ec13f7d53293c2040bfd3093f8760252) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CreativeCore_Audio/Scenes/Audio_Outdoor_Scene.unity using Guid(ec13f7d53293c2040bfd3093f8760252) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '1196bd778baa5c56424e351fea93151f') in 0.0176672 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 103.128060 seconds.
+  path: Assets/CreativeCore_Audio/Scenes/Audio_Outdoor_Scene.unity
+  artifactKey: Guid(ec13f7d53293c2040bfd3093f8760252) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CreativeCore_Audio/Scenes/Audio_Outdoor_Scene.unity using Guid(ec13f7d53293c2040bfd3093f8760252) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '024e53294eaeb988747fd22576b0f5ef') in 0.0187767 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.636824 seconds.
+  path: ProjectSettings/TagManager.asset
+  artifactKey: Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing ProjectSettings/TagManager.asset using Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '9739e3e1fdfcb56785a3f4a1aeef3189') in 0.001744 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 0
+
+========================================================================
+Received Import Request.
+  Time since last request: 44.500240 seconds.
+  path: Assets/CreativeCore_Audio/Scenes/Audio_Outdoor_Scene.unity
+  artifactKey: Guid(ec13f7d53293c2040bfd3093f8760252) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CreativeCore_Audio/Scenes/Audio_Outdoor_Scene.unity using Guid(ec13f7d53293c2040bfd3093f8760252) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: '08efe857bf19ae2eb081459611b3fe18') in 0.0358674 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 47.468260 seconds.
+  path: Assets/CreativeCore_Audio/Scenes/Audio_Outdoor_Scene.unity
+  artifactKey: Guid(ec13f7d53293c2040bfd3093f8760252) Importer(2089858483,192608db42251d675da83286b1cce702)
+Start importing Assets/CreativeCore_Audio/Scenes/Audio_Outdoor_Scene.unity using Guid(ec13f7d53293c2040bfd3093f8760252) Importer(2089858483,192608db42251d675da83286b1cce702) (ScriptedImporter) -> (artifact id: 'd179fba08c371c374c3df9f74560831f') in 0.023015 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 1
+
+========================================================================
+Received Import Request.
+  Time since last request: 43.639114 seconds.
+  path: Assets/CreativeCore_Audio/Audio/AmbientWaterfall.wav
+  artifactKey: Guid(e9f8a2ce35edcd14aa4a811eed483b42) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CreativeCore_Audio/Audio/AmbientWaterfall.wav using Guid(e9f8a2ce35edcd14aa4a811eed483b42) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '2f4a1ced61af42321cd6a96eddc476c3') in 0.1166765 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/CreativeCore_Audio/Audio/cavestep5.wav
+  artifactKey: Guid(6a54730a5529d6d48aacf891058aad61) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CreativeCore_Audio/Audio/cavestep5.wav using Guid(6a54730a5529d6d48aacf891058aad61) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'f3e34cca737335e913fd6a67d14bf969') in 0.0170082 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/CreativeCore_Audio/Audio/cavestep4.wav
+  artifactKey: Guid(51e36d69021dbd743b6533dc6bcfa157) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CreativeCore_Audio/Audio/cavestep4.wav using Guid(51e36d69021dbd743b6533dc6bcfa157) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '8b3dbca2e54af96537c06a3952dea0fc') in 0.0177253 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/CreativeCore_Audio/Audio/waterstep4.wav
+  artifactKey: Guid(6dedbc0119502ba479a84f77c0e5cecc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CreativeCore_Audio/Audio/waterstep4.wav using Guid(6dedbc0119502ba479a84f77c0e5cecc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e0b0c4b543b782fe9c4a5e26a507eaf0') in 0.0221239 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/CreativeCore_Audio/Audio/grassstep5.wav
+  artifactKey: Guid(0a7afb728779dca4e88150f00fb5dbca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CreativeCore_Audio/Audio/grassstep5.wav using Guid(0a7afb728779dca4e88150f00fb5dbca) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '582adb2fe1499374a750ae29310ee48d') in 0.0158455 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/CreativeCore_Audio/Audio/grassstep4.wav
+  artifactKey: Guid(6c2f3473f3d408e4f9c5340d819ff8bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CreativeCore_Audio/Audio/grassstep4.wav using Guid(6c2f3473f3d408e4f9c5340d819ff8bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '59a54ab4058940e97ce260bbf1428a27') in 0.0248896 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/CreativeCore_Audio/Audio/cavestep2.wav
+  artifactKey: Guid(5282d14cb6967db4a983bc45d48f668b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CreativeCore_Audio/Audio/cavestep2.wav using Guid(5282d14cb6967db4a983bc45d48f668b) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '712de33b879a7edc664f9c4e42ed3af3') in 0.0228788 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000028 seconds.
+  path: Assets/CreativeCore_Audio/Audio/WaterDroplets.mp3
+  artifactKey: Guid(28b85e10f376f0f47868e11d36b707c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CreativeCore_Audio/Audio/WaterDroplets.mp3 using Guid(28b85e10f376f0f47868e11d36b707c9) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'ffc441be2b7220b5eebebf69d1af9ed6') in 0.0194555 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/CreativeCore_Audio/Audio/waterstep5.wav
+  artifactKey: Guid(e0b2f1f4400305947a7138e75f81ccb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CreativeCore_Audio/Audio/waterstep5.wav using Guid(e0b2f1f4400305947a7138e75f81ccb3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4828ee4104fe9d361aad67a24c89702d') in 0.0209739 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 2
+
+========================================================================
+Received Prepare
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.723 seconds
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+Refreshing native plugins compatible for Editor in 0.58 ms, found 2 plugins.
+Native extension for Android target not found
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Assembly reference Packages/com.unity.cinemachine/Editor/Samples/ExposeHDRPInternals/HDRP-Editor-ref.asmref has no target assembly definition
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Failed to launch server process. Reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Unable to send message (not connected to server process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.966 seconds
+Domain Reload Profiling: 1691ms
+	BeginReloadAssembly (229ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (6ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (78ms)
+	RebuildCommonClasses (35ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (25ms)
+	LoadAllAssembliesAndSetupDomain (423ms)
+		LoadAssemblies (317ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (195ms)
+			TypeCache.Refresh (7ms)
+				TypeCache.ScanAssembly (0ms)
+			BuildScriptInfoCaches (170ms)
+			ResolveRequiredComponents (13ms)
+	FinalizeReload (966ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (792ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (12ms)
+			SetLoadedEditorAssemblies (4ms)
+			BeforeProcessingInitializeOnLoad (138ms)
+			ProcessInitializeOnLoadAttributes (576ms)
+			ProcessInitializeOnLoadMethodAttributes (59ms)
+			AfterProcessingInitializeOnLoad (3ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (16ms)
+Refreshing native plugins compatible for Editor in 1.01 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 32 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 5568 unused Assets / (8.8 MB). Loaded Objects now: 6261.
+Memory consumption went from 142.8 MB to 134.0 MB.
+Total: 14.287500 ms (FindLiveObjects: 0.583300 ms CreateObjectMapping: 0.857100 ms MarkObjects: 7.582300 ms  DeleteObjects: 5.263300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+========================================================================
+Received Import Request.
+  Time since last request: 104.377164 seconds.
+  path: Assets/CreativeCore_Audio/StarterAssets/InputSystem/StarterAssets.inputactions
+  artifactKey: Guid(4419d82f33d36e848b3ed5af4c8da37e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CreativeCore_Audio/StarterAssets/InputSystem/StarterAssets.inputactions using Guid(4419d82f33d36e848b3ed5af4c8da37e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: '4340990ac830c4c2ee9fa82751a3dd6f') in 0.0260576 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 5
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/CreativeCore_Audio/StarterAssets/ThirdPersonController/Prefabs/PlayerFollowCamera.prefab
+  artifactKey: Guid(a1a802ecaf6775746bb2a929fb554ad8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/CreativeCore_Audio/StarterAssets/ThirdPersonController/Prefabs/PlayerFollowCamera.prefab using Guid(a1a802ecaf6775746bb2a929fb554ad8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) (PreviewImporter) -> (artifact id: 'e02687a362950990b56e1313d04e96fe') in 0.0265017 seconds
+Number of updated asset objects reloaded before import = 0Number of asset objects unloaded after import = 11
+

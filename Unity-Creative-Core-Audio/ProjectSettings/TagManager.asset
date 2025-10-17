@@ -5,6 +5,9 @@ TagManager:
   serializedVersion: 3
   tags:
   - CinemachineTarget
+  - Cave
+  - Grass
+  - Water
   layers:
   - Default
   - TransparentFX
